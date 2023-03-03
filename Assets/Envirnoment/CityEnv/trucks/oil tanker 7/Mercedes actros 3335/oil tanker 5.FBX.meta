@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 9e6f15c4abf842f4ea17747090ea8a29
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: back
+    100002: back 1
+    100004: back light
+    100006: front body
+    100008: front right
+    100010: glass
+    100012: left tyre
+    100014: mud guard
+    100016: //RootNode
+    100018: trailer 1
+    100020: tyre 1
+    100022: tyre 2
+    100024: tyre 3
+    100026: tyre 4
+    100028: tyre 5
+    100030: tyre 6
+    100032: tyre 7
+    100034: tyre 8
+    400000: back
+    400002: back 1
+    400004: back light
+    400006: front body
+    400008: front right
+    400010: glass
+    400012: left tyre
+    400014: mud guard
+    400016: //RootNode
+    400018: trailer 1
+    400020: tyre 1
+    400022: tyre 2
+    400024: tyre 3
+    400026: tyre 4
+    400028: tyre 5
+    400030: tyre 6
+    400032: tyre 7
+    400034: tyre 8
+    2100000: Mercedes actros 3335_Material__7596
+    2100002: Mercedes actros 3335_Material__7582
+    2100004: Mercedes actros 3335_Material__7586
+    2100006: Mercedes actros 3335_Material__7585
+    2100008: Mercedes actros 3335_Material__7588
+    2100010: Mercedes actros 3335_Material__7597
+    2100012: Mercedes actros 3335_91d2dba1_dds
+    2100014: Mercedes actros 3335_Material__7590
+    2300000: back
+    2300002: back 1
+    2300004: back light
+    2300006: front body
+    2300008: front right
+    2300010: glass
+    2300012: left tyre
+    2300014: mud guard
+    2300016: trailer 1
+    2300018: tyre 1
+    2300020: tyre 2
+    2300022: tyre 3
+    2300024: tyre 4
+    2300026: tyre 5
+    2300028: tyre 6
+    2300030: tyre 7
+    2300032: tyre 8
+    3300000: back
+    3300002: back 1
+    3300004: back light
+    3300006: front body
+    3300008: front right
+    3300010: glass
+    3300012: left tyre
+    3300014: mud guard
+    3300016: trailer 1
+    3300018: tyre 1
+    3300020: tyre 2
+    3300022: tyre 3
+    3300024: tyre 4
+    3300026: tyre 5
+    3300028: tyre 6
+    3300030: tyre 7
+    3300032: tyre 8
+    4300000: tyre 6
+    4300002: tyre 5
+    4300004: tyre 4
+    4300006: tyre 3
+    4300008: tyre 2
+    4300010: front body
+    4300012: glass
+    4300014: front right
+    4300016: tyre 7
+    4300018: left tyre
+    4300020: tyre 8
+    4300022: tyre 1
+    4300024: back
+    4300026: mud guard
+    4300028: trailer
+    4300030: back
+    4300032: back light
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mercedes actros 3335_91d2dba1_dds
+    second: {fileID: 2100000, guid: 9f8418f238a0c2349965d48ee1f96877, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mercedes actros 3335_Material__7582
+    second: {fileID: 2100000, guid: e094248dcba9c7243a6310ac25b9dbb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mercedes actros 3335_Material__7585
+    second: {fileID: 2100000, guid: 8c28536957097854d96abe18e5c8f08a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mercedes actros 3335_Material__7586
+    second: {fileID: 2100000, guid: 21d6417b23ee4f949b182ca6180da6db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mercedes actros 3335_Material__7588
+    second: {fileID: 2100000, guid: f2a9fd7b39080374a81ab2d91fc861f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mercedes actros 3335_Material__7590
+    second: {fileID: 2100000, guid: 5f52fb3718969fa45b8324cc6c2de9b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mercedes actros 3335_Material__7596
+    second: {fileID: 2100000, guid: 4d042a393aa1b22498f763dd9e70388e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mercedes actros 3335_Material__7597
+    second: {fileID: 2100000, guid: e3d6ffa0fb2825b41adaed02c4c66bff, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

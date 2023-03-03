@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TreePlane414
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 54
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 20
+    localAABB:
+      m_Center: {x: 852.443, y: -29.45346, z: 93.47713}
+      m_Extent: {x: 1612.055, y: 72.57617, z: 93.47713}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes:
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data:
+  m_MeshCompression: 1
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer:
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 0
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata:
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 60
+      m_Range: 3224.11
+      m_Start: -759.6121
+      m_Data: 739f51483bd13c0400009a8fb3284b00009036348bb234f719406213cd43b9a182503cbdf4931b2a5371d34b3f08c523683d08c583503c537183503c2dc884503c08c5d3824c537183503c2365a61d3e08c5335266537183503cd76f08643c08c573fd86ee5483503cbbb0ab213e08c5b30bbb537183503cbd821cbd3f08c5d32bc8537183503cffff8f503c710df4ffff537113d740
+      m_BitSize: 20
+    m_UV:
+      m_NumItems: 40
+      m_Range: 5.412984
+      m_Start: -3.466432
+      m_Data: 46301f47f2ffffc791fcfffff6fa1ac1bcbdbe23af1e47f2c8abdbebbbd7e17124ef75b8bdbee99b1d4772fa66dbebebd6cc7124bb35b3bdbe14c81b473205f2daeb2b7aa271248b9ea8bdbea1be194772a86fdaeb0b008071240300a0bdbe
+      m_BitSize: 19
+    m_Normals:
+      m_NumItems: 40
+      m_Range: 0.3534322
+      m_Start: -0.08079556
+      m_Data: f9abf3bf3affab93bf3a5aaba3b53ad5a9539d3aeaa8a38e3aeaa8a38e3aeaa8a38e3aeaa8a38e3a75a853873a00a803803a
+      m_BitSize: 10
+    m_Tangents:
+      m_NumItems: 40
+      m_Range: 1.061014
+      m_Start: -0.9999974
+      m_Data: 26007e82df27fc6d02e017887e81e903b83e40eb007c0f40f700f40e80f000340f40f301780e00ed02302e00e705fc5f40fe
+      m_BitSize: 10
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 20
+      m_Data: ffff0f
+      m_BitSize: 1
+    m_TangentSigns:
+      m_NumItems: 40
+      m_Data: 5555000000
+      m_BitSize: 1
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 54
+      m_Data: 2008200601838c624831e51c644e4249a1b4d4626a35d61c6bcf3de85e8451c23825
+      m_BitSize: 5
+    m_UVInfo: 5
+  m_LocalAABB:
+    m_Center: {x: 852.443, y: -29.45346, z: 93.47713}
+    m_Extent: {x: 1612.055, y: 72.57617, z: 93.47713}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshMetrics[0]: 267398.7
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: -1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path:
