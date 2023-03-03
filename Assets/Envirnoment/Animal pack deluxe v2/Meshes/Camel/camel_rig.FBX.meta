@@ -1,0 +1,670 @@
+fileFormatVersion: 2
+guid: 50b4da26e46ac0d458a4ad875966486f
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Horse
+  - first:
+      1: 100004
+    second: HorseFrontRLegFrontHoof
+  - first:
+      1: 100006
+    second: HorseFrontRLegHumerus
+  - first:
+      1: 100008
+    second: HorseFrontRLegPhalangesManus
+  - first:
+      1: 100010
+    second: HorseFrontRLegPlatform
+  - first:
+      1: 100012
+    second: HorseFrontRLegRadius
+  - first:
+      1: 100014
+    second: HorseFrontRLegScapula
+  - first:
+      1: 100016
+    second: HorseLFemur
+  - first:
+      1: 100018
+    second: HorseLFrontHoof
+  - first:
+      1: 100020
+    second: HorseLHumerus
+  - first:
+      1: 100022
+    second: HorseLLargeCannon
+  - first:
+      1: 100024
+    second: HorseLPhalangesManus
+  - first:
+      1: 100026
+    second: HorseLPhalanxPrima
+  - first:
+      1: 100028
+    second: HorseLPlatform
+  - first:
+      1: 100030
+    second: HorseLPlatform 1
+  - first:
+      1: 100032
+    second: HorseLRadius
+  - first:
+      1: 100034
+    second: HorseLRearHoof
+  - first:
+      1: 100036
+    second: HorseLScapula
+  - first:
+      1: 100038
+    second: HorseLTibia
+  - first:
+      1: 100040
+    second: HorseNeck1
+  - first:
+      1: 100042
+    second: HorseNeck2
+  - first:
+      1: 100044
+    second: HorseNeck3
+  - first:
+      1: 100046
+    second: HorseNeck4
+  - first:
+      1: 100048
+    second: HorseNeck5
+  - first:
+      1: 100050
+    second: HorseNeck6
+  - first:
+      1: 100052
+    second: HorsePelvis
+  - first:
+      1: 100054
+    second: HorseRFemur
+  - first:
+      1: 100056
+    second: HorseRibcage
+  - first:
+      1: 100058
+    second: HorseRLargeCannon
+  - first:
+      1: 100060
+    second: HorseRPhalanxPrima
+  - first:
+      1: 100062
+    second: HorseRPlatform
+  - first:
+      1: 100064
+    second: HorseRRearHoof
+  - first:
+      1: 100066
+    second: HorseRTibia
+  - first:
+      1: 100068
+    second: HorseScull
+  - first:
+      1: 100070
+    second: HorseScullBone001
+  - first:
+      1: 100072
+    second: HorseScullBone002
+  - first:
+      1: 100074
+    second: HorseScullBone003
+  - first:
+      1: 100076
+    second: HorseScullBone004
+  - first:
+      1: 100078
+    second: HorseSpine1
+  - first:
+      1: 100080
+    second: HorseSpine2
+  - first:
+      1: 100082
+    second: HorseSpine3
+  - first:
+      1: 100084
+    second: HorseSpine4
+  - first:
+      1: 100086
+    second: HorseTail1
+  - first:
+      1: 100088
+    second: HorseTail2
+  - first:
+      1: 100090
+    second: HorseTail3
+  - first:
+      1: 100092
+    second: HorseTail4
+  - first:
+      1: 100094
+    second: HorseTail5
+  - first:
+      1: 100096
+    second: HorseTail6
+  - first:
+      1: 100098
+    second: objGroup1_0_0
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Horse
+  - first:
+      4: 400004
+    second: HorseFrontRLegFrontHoof
+  - first:
+      4: 400006
+    second: HorseFrontRLegHumerus
+  - first:
+      4: 400008
+    second: HorseFrontRLegPhalangesManus
+  - first:
+      4: 400010
+    second: HorseFrontRLegPlatform
+  - first:
+      4: 400012
+    second: HorseFrontRLegRadius
+  - first:
+      4: 400014
+    second: HorseFrontRLegScapula
+  - first:
+      4: 400016
+    second: HorseLFemur
+  - first:
+      4: 400018
+    second: HorseLFrontHoof
+  - first:
+      4: 400020
+    second: HorseLHumerus
+  - first:
+      4: 400022
+    second: HorseLLargeCannon
+  - first:
+      4: 400024
+    second: HorseLPhalangesManus
+  - first:
+      4: 400026
+    second: HorseLPhalanxPrima
+  - first:
+      4: 400028
+    second: HorseLPlatform
+  - first:
+      4: 400030
+    second: HorseLPlatform 1
+  - first:
+      4: 400032
+    second: HorseLRadius
+  - first:
+      4: 400034
+    second: HorseLRearHoof
+  - first:
+      4: 400036
+    second: HorseLScapula
+  - first:
+      4: 400038
+    second: HorseLTibia
+  - first:
+      4: 400040
+    second: HorseNeck1
+  - first:
+      4: 400042
+    second: HorseNeck2
+  - first:
+      4: 400044
+    second: HorseNeck3
+  - first:
+      4: 400046
+    second: HorseNeck4
+  - first:
+      4: 400048
+    second: HorseNeck5
+  - first:
+      4: 400050
+    second: HorseNeck6
+  - first:
+      4: 400052
+    second: HorsePelvis
+  - first:
+      4: 400054
+    second: HorseRFemur
+  - first:
+      4: 400056
+    second: HorseRibcage
+  - first:
+      4: 400058
+    second: HorseRLargeCannon
+  - first:
+      4: 400060
+    second: HorseRPhalanxPrima
+  - first:
+      4: 400062
+    second: HorseRPlatform
+  - first:
+      4: 400064
+    second: HorseRRearHoof
+  - first:
+      4: 400066
+    second: HorseRTibia
+  - first:
+      4: 400068
+    second: HorseScull
+  - first:
+      4: 400070
+    second: HorseScullBone001
+  - first:
+      4: 400072
+    second: HorseScullBone002
+  - first:
+      4: 400074
+    second: HorseScullBone003
+  - first:
+      4: 400076
+    second: HorseScullBone004
+  - first:
+      4: 400078
+    second: HorseSpine1
+  - first:
+      4: 400080
+    second: HorseSpine2
+  - first:
+      4: 400082
+    second: HorseSpine3
+  - first:
+      4: 400084
+    second: HorseSpine4
+  - first:
+      4: 400086
+    second: HorseTail1
+  - first:
+      4: 400088
+    second: HorseTail2
+  - first:
+      4: 400090
+    second: HorseTail3
+  - first:
+      4: 400092
+    second: HorseTail4
+  - first:
+      4: 400094
+    second: HorseTail5
+  - first:
+      4: 400096
+    second: HorseTail6
+  - first:
+      4: 400098
+    second: objGroup1_0_0
+  - first:
+      43: 4300000
+    second: objGroup1_0_0
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: objGroup1_0_0
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: default
+    second: {fileID: 2100000, guid: 564707ad6d7c4ef47ae923897c98342a, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: camel_rig(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: objGroup1_0_0
+      parentName: camel_rig(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000030908623, y: 0.7071068, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 0.92827976, y: 0.92827976, z: 0.92827976}
+    - name: Horse
+      parentName: camel_rig(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.50000006, y: -0.5, z: -0.4999999, w: 0.5}
+      scale: {x: 2.54, y: 2.54, z: 2.54}
+    - name: HorseLPlatform
+      parentName: camel_rig(Clone)
+      position: {x: -0.23159835, y: -0.11108438, z: -0.5632878}
+      rotation: {x: 0.50000006, y: -0.5, z: -0.4999999, w: 0.5}
+      scale: {x: 2.54, y: 2.54, z: 2.54}
+    - name: HorseRPlatform
+      parentName: camel_rig(Clone)
+      position: {x: 0.23159854, y: -0.11108438, z: -0.5632877}
+      rotation: {x: 0.50000006, y: -0.5, z: -0.4999999, w: 0.5}
+      scale: {x: 2.54, y: 2.54, z: 2.54}
+    - name: HorseLPlatform 1
+      parentName: camel_rig(Clone)
+      position: {x: -0.18848637, y: 0.06026565, z: 0.44553187}
+      rotation: {x: 0.50000006, y: -0.5, z: -0.4999999, w: 0.5}
+      scale: {x: 2.54, y: 2.54, z: 2.54}
+    - name: HorseFrontRLegPlatform
+      parentName: camel_rig(Clone)
+      position: {x: 0.1884862, y: 0.06026565, z: 0.44553196}
+      rotation: {x: 0.50000006, y: -0.5, z: -0.4999999, w: 0.5}
+      scale: {x: 2.54, y: 2.54, z: 2.54}
+    - name: HorsePelvis
+      parentName: camel_rig(Clone)
+      position: {x: -0.03574355, y: 1.1812227, z: -0.093272865}
+      rotation: {x: 0.47036248, y: -0.4416716, z: -0.51926816, w: 0.56039804}
+      scale: {x: 2.54, y: 2.54, z: 2.54}
+    - name: HorseSpine1
+      parentName: HorsePelvis
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.0000000117711165, y: -0.000000057199088, z: 0.0110331895, w: 0.99993914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HorseSpine2
+      parentName: HorseSpine1
+      position: {x: -0.08358501, y: 0, z: 0}
+      rotation: {x: 6.361176e-10, y: -0.000000024931715, z: 0.034662522, w: 0.99939907}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: HorseSpine3
+      parentName: HorseSpine2
+      position: {x: -0.083585, y: 0, z: 0}
+      rotation: {x: -8.021428e-10, y: -0.00000005339584, z: 0.020745238, w: 0.9997848}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: HorseSpine4
+      parentName: HorseSpine3
+      position: {x: -0.08358501, y: 0, z: 0}
+      rotation: {x: -0.00000001439623, y: 0.00000012794364, z: -0.0342492, w: 0.9994133}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: HorseRibcage
+      parentName: HorseSpine4
+      position: {x: -0.083585024, y: 0, z: -4.5474734e-15}
+      rotation: {x: -0.000000011684428, y: 0.0000000061179146, z: -0.016872823, w: 0.99985766}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: HorseLScapula
+      parentName: HorseRibcage
+      position: {x: 0.022590714, y: -0.008347969, z: 0.045584716}
+      rotation: {x: 0.8584475, y: -0.47826436, z: -0.056602463, w: -0.17642915}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: HorseLHumerus
+      parentName: HorseLScapula
+      position: {x: -0.13350092, y: -0.000000076293944, z: 0.000000057220458}
+      rotation: {x: -0.036537908, y: 0.18993755, z: 0.47726974, w: 0.8572061}
+      scale: {x: 1.0000004, y: 0.99999976, z: 0.99999976}
+    - name: HorseLRadius
+      parentName: HorseLHumerus
+      position: {x: -0.23637474, y: 0.000000019073486, z: -0.0000000047683715}
+      rotation: {x: 0.002010391, y: -0.0011322906, z: -0.36326197, w: 0.9316842}
+      scale: {x: 0.99999994, y: 0.99999964, z: 1}
+    - name: HorseLPhalangesManus
+      parentName: HorseLRadius
+      position: {x: -0.19520767, y: 0, z: 0.000000009536743}
+      rotation: {x: -0.0047459784, y: -0.011273671, z: 0.017865892, w: 0.9997656}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
+    - name: HorseLFrontHoof
+      parentName: HorseLPhalangesManus
+      position: {x: -0.101907775, y: -0.0053727147, z: -0.0005090618}
+      rotation: {x: -0.01392178, y: 0.0030848274, z: 0.13765879, w: 0.99037707}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: HorseFrontRLegScapula
+      parentName: HorseRibcage
+      position: {x: 0.022590723, y: -0.008347969, z: -0.045584716}
+      rotation: {x: 0.65791214, y: -0.51489097, z: 0.43078533, w: 0.3412668}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: HorseFrontRLegHumerus
+      parentName: HorseFrontRLegScapula
+      position: {x: -0.13350098, y: 0.000000076293944, z: 0.000000057220458}
+      rotation: {x: -0.04136509, y: 0.118874624, z: 0.07822386, w: 0.9889585}
+      scale: {x: 0.99999964, y: 1.0000002, z: 1.0000001}
+    - name: HorseFrontRLegRadius
+      parentName: HorseFrontRLegHumerus
+      position: {x: -0.23637472, y: 0.000000038146972, z: 0}
+      rotation: {x: 0.0014166821, y: 0.009295122, z: -0.038410496, w: 0.9992178}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1}
+    - name: HorseFrontRLegPhalangesManus
+      parentName: HorseFrontRLegRadius
+      position: {x: -0.19520767, y: -0.000000038146972, z: 0.0000000047683715}
+      rotation: {x: 0.004749513, y: 0.011362926, z: 0.018655993, w: 0.99975014}
+      scale: {x: 1, y: 0.9999995, z: 1.0000001}
+    - name: HorseFrontRLegFrontHoof
+      parentName: HorseFrontRLegPhalangesManus
+      position: {x: -0.101907805, y: -0.005372734, z: 0.00050910946}
+      rotation: {x: 0.013910026, y: -0.0031645116, z: 0.13704738, w: 0.9904618}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: HorseNeck1
+      parentName: HorseRibcage
+      position: {x: 0.0032950973, y: -0.0018020248, z: 6.2961136e-10}
+      rotation: {x: 0.000000024429157, y: 0.00000004576607, z: -0.14048153, w: 0.99008334}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HorseNeck2
+      parentName: HorseNeck1
+      position: {x: -0.15335229, y: 0.000000038146972, z: -4.5474734e-15}
+      rotation: {x: -0.03170008, y: 0.57579917, z: 0.14688066, w: 0.8036645}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: HorseNeck3
+      parentName: HorseNeck2
+      position: {x: -0.09203461, y: 0.000000038146972, z: -9.094947e-15}
+      rotation: {x: -0.0862219, y: 0.1138751, z: -0.11337343, w: 0.9832317}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: HorseNeck4
+      parentName: HorseNeck3
+      position: {x: -0.07976021, y: 0, z: 0}
+      rotation: {x: -0.0000003561111, y: 0.00000006884728, z: 0.326232, w: 0.94528973}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: HorseNeck5
+      parentName: HorseNeck4
+      position: {x: -0.081153564, y: -0.000000019073486, z: 3.6379787e-14}
+      rotation: {x: -0.0003291088, y: 0.006274796, z: -0.092921264, w: 0.9956537}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: HorseNeck6
+      parentName: HorseNeck5
+      position: {x: -0.09743545, y: -0.000000038146972, z: 0}
+      rotation: {x: 0.00000035704323, y: 0.00000014985211, z: -0.12788925, w: 0.9917885}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: HorseScull
+      parentName: HorseNeck6
+      position: {x: -0.091863096, y: -0.000000019073486, z: -3.6379787e-14}
+      rotation: {x: -0.48268965, y: 0.4532156, z: -0.37109742, w: 0.6510707}
+      scale: {x: 0.99999994, y: 0.9999997, z: 1.0000001}
+    - name: HorseScullBone003
+      parentName: HorseScull
+      position: {x: -0.0010449982, y: 0.0052856444, z: 0.034289982}
+      rotation: {x: 0.16305806, y: 0.91688406, z: 0.043036062, w: 0.3617784}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: HorseScullBone001
+      parentName: HorseScull
+      position: {x: -0.13825522, y: 0.009652939, z: -0.000000020459597}
+      rotation: {x: 0.000000025046972, y: 0.000000015550592, z: -0.16191742, w: 0.98680437}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: HorseScullBone002
+      parentName: HorseScull
+      position: {x: -0.13725547, y: 0.03743141, z: -0.000000017637102}
+      rotation: {x: 0.000000035076187, y: 0.000000021777284, z: -0.22675174, w: 0.9739526}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: HorseScullBone004
+      parentName: HorseScull
+      position: {x: -0.0010449982, y: 0.0052856444, z: -0.03428999}
+      rotation: {x: 0.16305801, y: 0.916884, z: -0.0430361, w: -0.3617785}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: HorseLFemur
+      parentName: HorsePelvis
+      position: {x: 0.113292634, y: 0.03649681, z: 0.07364772}
+      rotation: {x: 0.08025964, y: -0.9786912, z: -0.17936555, w: -0.0595819}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HorseLTibia
+      parentName: HorseLFemur
+      position: {x: -0.15338375, y: 0.000000104904174, z: -0.0000000667572}
+      rotation: {x: -0.005164317, y: 0.06811754, z: 0.27555487, w: 0.95885503}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+    - name: HorseLLargeCannon
+      parentName: HorseLTibia
+      position: {x: -0.26285115, y: 0.00000017166137, z: 0.000000019073486}
+      rotation: {x: 0.13381043, y: 0.09636856, z: -0.9086374, w: 0.3836483}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000002}
+    - name: HorseLPhalanxPrima
+      parentName: HorseLLargeCannon
+      position: {x: -0.12583625, y: 0, z: 0.000000009536743}
+      rotation: {x: -0.020290872, y: 0.02760279, z: -0.08539856, w: 0.99575776}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+    - name: HorseLRearHoof
+      parentName: HorseLPhalanxPrima
+      position: {x: -0.0020454787, y: 0.02257431, z: -0.0003757286}
+      rotation: {x: 0.000003332261, y: 0.000014748925, z: 0.23286827, w: 0.9725083}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: HorseRFemur
+      parentName: HorsePelvis
+      position: {x: 0.11329266, y: 0.03649681, z: -0.07364771}
+      rotation: {x: 0.0766239, y: -0.99322635, z: 0.08716534, w: -0.00570485}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: HorseRTibia
+      parentName: HorseRFemur
+      position: {x: -0.15338375, y: 0.000000076293944, z: 0.0000000667572}
+      rotation: {x: 0.005168801, y: -0.068129465, z: 0.27555278, w: 0.95885473}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: HorseRLargeCannon
+      parentName: HorseRTibia
+      position: {x: -0.2628511, y: 0.0000001335144, z: -0.000000019073486}
+      rotation: {x: -0.1063501, y: 0.013137593, z: -0.92116123, w: 0.37413788}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1.0000002}
+    - name: HorseRPhalanxPrima
+      parentName: HorseRLargeCannon
+      position: {x: -0.12583627, y: 0, z: -0.000000009536743}
+      rotation: {x: 0.02028962, y: -0.027705256, z: -0.08540121, w: 0.9957547}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.99999994}
+    - name: HorseRRearHoof
+      parentName: HorseRPhalanxPrima
+      position: {x: -0.0020455932, y: 0.02257429, z: 0.00037567137}
+      rotation: {x: 0.000012208897, y: 0.000050059443, z: 0.23286921, w: 0.9725081}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1}
+    - name: HorseTail1
+      parentName: HorsePelvis
+      position: {x: 0.14597574, y: -0.0064902497, z: 9.0718455e-10}
+      rotation: {x: 0.00000019794518, y: -0.00000013961497, z: -0.84419507, w: 0.53603613}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: HorseTail2
+      parentName: HorseTail1
+      position: {x: -0.050825994, y: 0, z: 0}
+      rotation: {x: -0.00000009979241, y: 0.0000000857787, z: 0.18979266, w: 0.9818242}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: HorseTail3
+      parentName: HorseTail2
+      position: {x: -0.053745918, y: 0, z: -9.094947e-15}
+      rotation: {x: -0.00000003668241, y: -0.000000049075524, z: 0.05267264, w: 0.99861187}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: HorseTail4
+      parentName: HorseTail3
+      position: {x: -0.07064487, y: 0.000000038146972, z: -4.5474734e-15}
+      rotation: {x: -0.00000003085044, y: -0.000000014858216, z: -0.054542672, w: 0.99851143}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: HorseTail5
+      parentName: HorseTail4
+      position: {x: -0.062456395, y: -0.000000038146972, z: -2.2737367e-15}
+      rotation: {x: -0.000000018096312, y: -0.00000002632578, z: -0.09021089, w: 0.9959227}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1}
+    - name: HorseTail6
+      parentName: HorseTail5
+      position: {x: -0.04023571, y: 0.000000038146972, z: 2.2737367e-15}
+      rotation: {x: -0.000000027183477, y: -0.000000011503937, z: -0.0852375, w: 0.99636066}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Horse
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
