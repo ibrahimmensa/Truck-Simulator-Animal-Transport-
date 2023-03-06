@@ -47,7 +47,7 @@ public class GameManager : Singleton<GameManager>
     }
     void Start()
     {
-        PlayerPrefs.SetInt("Level", 1);
+        PlayerPrefs.SetInt("Level", 2);
         if (PlayerPrefs.HasKey("Truck"))
         {
             Player = PlayerObj.transform.GetChild(PlayerPrefs.GetInt("Truck")).gameObject;
