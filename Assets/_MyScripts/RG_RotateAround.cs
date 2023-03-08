@@ -31,7 +31,9 @@ public class RG_RotateAround : MonoBehaviour
 	private Vector3 mouseDownPosition;
 	private float xMouseMoved;
 	private float yMouseMoved;
-
+	[Header("Rotation Between")]
+	public float min;
+	public float max;
 	void Start()
 	{
 		isDrag = false;
@@ -58,11 +60,11 @@ public class RG_RotateAround : MonoBehaviour
 				isDrag = false;
 			}
 		}
-		if (x == 140)
+		if (x == max)
 		{
 			rotationSpeed = -(rotationSpeed);
 		}
-		else if (x == 20)
+		else if (x == min)
 		{
 			rotationSpeed = -(rotationSpeed);
 		}

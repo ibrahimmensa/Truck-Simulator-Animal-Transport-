@@ -23,9 +23,12 @@ public class MainMenu_Handller : MonoBehaviour
     {
         Handllers_Manager.Instance.switchMenu(Screens.Garage);
     }
-    public void Settings() { }
+    public void Settings() { Handllers_Manager.Instance.switchMenu(Screens.Settings); }
     public void Shop() { }
-    public void MoreGames() { }
+    public void MoreGames() 
+    {
+
+    }
     public void RateUs() { }
     public void pillowFight() { }
     public void bikeRace() { }

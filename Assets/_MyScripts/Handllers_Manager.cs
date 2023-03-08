@@ -21,10 +21,10 @@ public class Handllers_Manager : Singleton<Handllers_Manager>
     [Header("*IAP Panels")]
 
 
-    public GameObject UnlockAllCarsPOPUP;
-    public GameObject UnlockCareerLevelsPOPUP;
-    public GameObject UnlockTrolleyLevelsPOPUP;
-    public GameObject UnlockAllLevelsPOPUP;
+    //public GameObject UnlockAllCarsPOPUP;
+    //public GameObject UnlockCareerLevelsPOPUP;
+    //public GameObject UnlockTrolleyLevelsPOPUP;
+    //public GameObject UnlockAllLevelsPOPUP;
 
     public static int Cars_IAP_Counter, Career_IAP_Counte, Trolley_IAP_Counte, AllLevels_IAP_Counte = 0;
 
@@ -101,10 +101,10 @@ public class Handllers_Manager : Singleton<Handllers_Manager>
         activeObjectIndex = PlayerPrefs.GetInt("CarSelected");
         objects[activeObjectIndex].SetActive(true);
 
-        E_CV = objects[activeObjectIndex].GetComponent<CarsValues>().engine / 3500;
-        A_CV = objects[activeObjectIndex].GetComponent<CarsValues>().accleration / 30;
-        H_CV = objects[activeObjectIndex].GetComponent<CarsValues>().handling / 50;
-        B_CV = objects[activeObjectIndex].GetComponent<CarsValues>().brakes / 2000;
+        //E_CV = objects[activeObjectIndex].GetComponent<CarsValues>().engine / 3500;
+        //A_CV = objects[activeObjectIndex].GetComponent<CarsValues>().accleration / 30;
+        //H_CV = objects[activeObjectIndex].GetComponent<CarsValues>().handling / 50;
+        //B_CV = objects[activeObjectIndex].GetComponent<CarsValues>().brakes / 2000;
         //==============================//
         switchMenu(Screens.Mainmenu);
     }
@@ -112,44 +112,44 @@ public class Handllers_Manager : Singleton<Handllers_Manager>
     // Update is called once per frame
     void Update()
     {
-        if (timeElapsed < lerpDuration)
-        {
-            e_Val = Mathf.Lerp(E_PV, E_CV, timeElapsed / lerpDuration);
-            a_Val = Mathf.Lerp(A_PV, A_CV, timeElapsed / lerpDuration);
-            h_Val = Mathf.Lerp(H_PV, H_CV, timeElapsed / lerpDuration);
-            b_Val = Mathf.Lerp(B_PV, B_CV, timeElapsed / lerpDuration);
-            timeElapsed += Time.deltaTime;
-        }
-        else
-        {
-            e_Val = E_CV;
-            a_Val = A_CV;
-            h_Val = H_CV;
-            b_Val = B_CV;
+    //    if (timeElapsed < lerpDuration)
+    //    {
+    //        e_Val = Mathf.Lerp(E_PV, E_CV, timeElapsed / lerpDuration);
+    //        a_Val = Mathf.Lerp(A_PV, A_CV, timeElapsed / lerpDuration);
+    //        h_Val = Mathf.Lerp(H_PV, H_CV, timeElapsed / lerpDuration);
+    //        b_Val = Mathf.Lerp(B_PV, B_CV, timeElapsed / lerpDuration);
+    //        timeElapsed += Time.deltaTime;
+    //    }
+    //    else
+    //    {
+    //        e_Val = E_CV;
+    //        a_Val = A_CV;
+    //        h_Val = H_CV;
+    //        b_Val = B_CV;
 
-        }
+    //    }
 
-        enigneVal.value = e_Val;
-        accValue.value = a_Val;
-        handlingValue.value = h_Val;
-        brakesVal.value = b_Val;
+    //    enigneVal.value = e_Val;
+    //    accValue.value = a_Val;
+    //    handlingValue.value = h_Val;
+    //    brakesVal.value = b_Val;
 
-        if (PlayerPrefs.GetInt(car + activeObjectIndex) == 0)
-        {
-            purchasePrice.gameObject.SetActive(true);
-            selectBtn.SetActive(false);
-            purchaseBtn.SetActive(true);
-            lockedImage.SetActive(true);
-        }
-        else
-        {
-            purchasePrice.gameObject.SetActive(false);
-            selectBtn.SetActive(true);
-            purchaseBtn.SetActive(false);
-            lockedImage.SetActive(false);
-        }
-        totalCashEarnedText.text = ((int)(totalCashEarned)).ToString();
-        MtotalCashEarnedText.text = ((int)(totalCashEarned)).ToString();
+    //    if (PlayerPrefs.GetInt(car + activeObjectIndex) == 0)
+    //    {
+    //        purchasePrice.gameObject.SetActive(true);
+    //        selectBtn.SetActive(false);
+    //        purchaseBtn.SetActive(true);
+    //        lockedImage.SetActive(true);
+    //    }
+    //    else
+    //    {
+    //        purchasePrice.gameObject.SetActive(false);
+    //        selectBtn.SetActive(true);
+    //        purchaseBtn.SetActive(false);
+    //        lockedImage.SetActive(false);
+    //    }
+    //    totalCashEarnedText.text = ((int)(totalCashEarned)).ToString();
+    //    MtotalCashEarnedText.text = ((int)(totalCashEarned)).ToString();
     }
     public void switchMenu(Screens CurrentState)
     {
@@ -205,10 +205,10 @@ public class Handllers_Manager : Singleton<Handllers_Manager>
     {
         timeElapsed = 0;
         objects[activeObjectIndex].SetActive(false);
-        E_PV = enigneVal.value;
-        A_PV = objects[activeObjectIndex].GetComponent<CarsValues>().accleration / 30;
-        H_PV = objects[activeObjectIndex].GetComponent<CarsValues>().handling / 50;
-        B_PV = objects[activeObjectIndex].GetComponent<CarsValues>().brakes / 2000;
+        //E_PV = enigneVal.value;
+        //A_PV = objects[activeObjectIndex].GetComponent<CarsValues>().accleration / 30;
+        //H_PV = objects[activeObjectIndex].GetComponent<CarsValues>().handling / 50;
+        //B_PV = objects[activeObjectIndex].GetComponent<CarsValues>().brakes / 2000;
         activeObjectIndex++;
         if (activeObjectIndex >= objects.Length)
         {
@@ -216,21 +216,21 @@ public class Handllers_Manager : Singleton<Handllers_Manager>
         }
         objects[activeObjectIndex].SetActive(true);
 
-        E_CV = objects[activeObjectIndex].GetComponent<CarsValues>().engine / 3500;
-        A_CV = objects[activeObjectIndex].GetComponent<CarsValues>().accleration / 30;
-        H_CV = objects[activeObjectIndex].GetComponent<CarsValues>().handling / 50;
-        B_CV = objects[activeObjectIndex].GetComponent<CarsValues>().brakes / 2000;
-        errorMessage.SetActive(false);
+        //E_CV = objects[activeObjectIndex].GetComponent<CarsValues>().engine / 3500;
+        //A_CV = objects[activeObjectIndex].GetComponent<CarsValues>().accleration / 30;
+        //H_CV = objects[activeObjectIndex].GetComponent<CarsValues>().handling / 50;
+        //B_CV = objects[activeObjectIndex].GetComponent<CarsValues>().brakes / 2000;
+       // errorMessage.SetActive(false);
     }
 
     public void _Previous()
     {
         timeElapsed = 0;
         objects[activeObjectIndex].SetActive(false);
-        E_PV = enigneVal.value;
-        A_PV = objects[activeObjectIndex].GetComponent<CarsValues>().accleration / 30;
-        H_PV = objects[activeObjectIndex].GetComponent<CarsValues>().handling / 50;
-        B_PV = objects[activeObjectIndex].GetComponent<CarsValues>().brakes / 2000;
+        //E_PV = enigneVal.value;
+        //A_PV = objects[activeObjectIndex].GetComponent<CarsValues>().accleration / 30;
+        //H_PV = objects[activeObjectIndex].GetComponent<CarsValues>().handling / 50;
+        //B_PV = objects[activeObjectIndex].GetComponent<CarsValues>().brakes / 2000;
         activeObjectIndex--;
         if (activeObjectIndex < 0)
         {
@@ -238,10 +238,10 @@ public class Handllers_Manager : Singleton<Handllers_Manager>
         }
         objects[activeObjectIndex].SetActive(true);
 
-        E_CV = objects[activeObjectIndex].GetComponent<CarsValues>().engine / 3500;
-        A_CV = objects[activeObjectIndex].GetComponent<CarsValues>().accleration / 30;
-        H_CV = objects[activeObjectIndex].GetComponent<CarsValues>().handling / 50;
-        B_CV = objects[activeObjectIndex].GetComponent<CarsValues>().brakes / 2000;
-        errorMessage.SetActive(false);
+        //E_CV = objects[activeObjectIndex].GetComponent<CarsValues>().engine / 3500;
+        //A_CV = objects[activeObjectIndex].GetComponent<CarsValues>().accleration / 30;
+        //H_CV = objects[activeObjectIndex].GetComponent<CarsValues>().handling / 50;
+        //B_CV = objects[activeObjectIndex].GetComponent<CarsValues>().brakes / 2000;
+       // errorMessage.SetActive(false);
     }
 }

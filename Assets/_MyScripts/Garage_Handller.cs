@@ -18,6 +18,17 @@ public class Garage_Handller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+    public void Back() 
+    {
+        Handllers_Manager.Instance.switchMenu(Screens.Mainmenu);
+        Garage.SetActive(false);
+    }
+    public void selectBtn() 
+    { 
+        Handllers_Manager.Instance.switchMenu(Screens.Modes);
+        Garage.SetActive(false);
+
     }
 }
