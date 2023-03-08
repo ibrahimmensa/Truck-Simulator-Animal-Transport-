@@ -2776,22 +2776,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0995d8bcdd5a7e4a9c93b0586835918, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 1595766765}
-  - {fileID: 837493189}
-  - {fileID: 5714514272126918761}
-  - {fileID: 7874521706481815574}
-  - {fileID: 3474717529554000654}
-  activeObjectIndex: 0
-  purchasePrice: {fileID: 0}
-  selectBtn: {fileID: 0}
-  purchaseBtn: {fileID: 0}
-  lockedImage: {fileID: 0}
-  vehicleName: {fileID: 0}
-  enigneVal: {fileID: 0}
-  accValue: {fileID: 0}
-  handlingValue: {fileID: 0}
-  brakesVal: {fileID: 0}
   totalCashEarned: 0
   totalCashEarnedText: {fileID: 0}
   MtotalCashEarnedText: {fileID: 0}
@@ -6652,6 +6636,7 @@ RectTransform:
   - {fileID: 2008526831}
   - {fileID: 1389940379}
   - {fileID: 354689539}
+  - {fileID: 1965526012}
   m_Father: {fileID: 210723876}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6673,6 +6658,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Garage: {fileID: 541470565}
+  objects:
+  - {fileID: 1595766765}
+  - {fileID: 837493189}
+  - {fileID: 5714514272126918761}
+  - {fileID: 7874521706481815574}
+  - {fileID: 3474717529554000654}
+  activeObjectIndex: 0
+  purchasePrice: {fileID: 1483733275}
+  SelectBtn: {fileID: 354689538}
+  purchaseBtn: {fileID: 1670321052}
+  lockedImage: {fileID: 1965526011}
+  vehicleName: {fileID: 950964371}
+  enigneVal: {fileID: 2126375604}
+  accValue: {fileID: 384920130}
+  handlingValue: {fileID: 1039462689}
 --- !u!114 &561301888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8845,6 +8845,42 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 174e4d25d7855e9479f55ada201a7e71, type: 3}
   m_PrefabInstance: {fileID: 837493187}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &837493192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837493189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b15a4cf01f521349982c9a0a7e03fe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 500
+  xps: 0
+  CashPrice: 0
+  aboutVehicle: 
+  vehicleName: 
+  rotationSpeed: 10
+  engine: 1587
+  accleration: 11.9
+  handling: 34.9
+  brakes: 0
+  EngineUpgradePrice: []
+  AcclerationUpgradePrice: []
+  HandlingUpgradePrice: []
+  BrakesUpgradePrice: []
+  carIndex: 0
+  upgrade_value_power: 0
+  upgrade_value_brake: 0
+  upgrade_value_speed: 0
+  tex: []
+  rend: {fileID: 0}
+  jeep02: 0
+  jeep01: 0
+  CarMat: {fileID: 0}
+  purchaseIndex: 0
 --- !u!1 &839448499
 GameObject:
   m_ObjectHideFlags: 0
@@ -12243,8 +12279,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 210723877}
-        m_TargetAssemblyTypeName: Handllers_Manager, Assembly-CSharp
+      - m_Target: {fileID: 561301887}
+        m_TargetAssemblyTypeName: Garage_Handller, Assembly-CSharp
         m_MethodName: _Previous
         m_Mode: 1
         m_Arguments:
@@ -17449,6 +17485,42 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 048ca5a46280e104fbc148218af3e363, type: 3}
   m_PrefabInstance: {fileID: 77359952}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1595766768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595766765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b15a4cf01f521349982c9a0a7e03fe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 0
+  xps: 0
+  CashPrice: 0
+  aboutVehicle: 
+  vehicleName: 
+  rotationSpeed: 10
+  engine: 1082
+  accleration: 10.2
+  handling: 18.9
+  brakes: 0
+  EngineUpgradePrice: []
+  AcclerationUpgradePrice: []
+  HandlingUpgradePrice: []
+  BrakesUpgradePrice: []
+  carIndex: 0
+  upgrade_value_power: 0
+  upgrade_value_brake: 0
+  upgrade_value_speed: 0
+  tex: []
+  rend: {fileID: 0}
+  jeep02: 0
+  jeep01: 0
+  CarMat: {fileID: 0}
+  purchaseIndex: 0
 --- !u!1 &1596996056
 GameObject:
   m_ObjectHideFlags: 0
@@ -19152,8 +19224,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 210723877}
-        m_TargetAssemblyTypeName: Handllers_Manager, Assembly-CSharp
+      - m_Target: {fileID: 561301887}
+        m_TargetAssemblyTypeName: Garage_Handller, Assembly-CSharp
         m_MethodName: _Next
         m_Mode: 1
         m_Arguments:
@@ -21790,6 +21862,82 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdd6fd1ed33fef2499c1d2f2f216b032, type: 3}
+--- !u!1 &1965526011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1965526012}
+  - component: {fileID: 1965526014}
+  - component: {fileID: 1965526013}
+  m_Layer: 5
+  m_Name: Lock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1965526012
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965526011}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 561301886}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 123.27}
+  m_SizeDelta: {x: 307.669, y: 398.6697}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1965526013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965526011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 48ea1717ca1a8fc4e87046c729244334, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1965526014
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965526011}
+  m_CullTransparentMesh: 1
 --- !u!4 &1967292424 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4188781239767714, guid: 5ec5af913f7d5b44988901e280217ae7, type: 3}
@@ -25696,6 +25844,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3473706131638354416}
+  - component: {fileID: 3474717529554000655}
   m_Layer: 0
   m_Name: truck 4x4
   m_TagString: Untagged
@@ -25703,6 +25852,42 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!114 &3474717529554000655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3474717529554000654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b15a4cf01f521349982c9a0a7e03fe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 4000
+  xps: 0
+  CashPrice: 0
+  aboutVehicle: 
+  vehicleName: 
+  rotationSpeed: 10
+  engine: 3378
+  accleration: 25.1
+  handling: 48.8
+  brakes: 0
+  EngineUpgradePrice: []
+  AcclerationUpgradePrice: []
+  HandlingUpgradePrice: []
+  BrakesUpgradePrice: []
+  carIndex: 0
+  upgrade_value_power: 0
+  upgrade_value_brake: 0
+  upgrade_value_speed: 0
+  tex: []
+  rend: {fileID: 0}
+  jeep02: 0
+  jeep01: 0
+  CarMat: {fileID: 0}
+  purchaseIndex: 0
 --- !u!1 &3474717532886664892
 GameObject:
   m_ObjectHideFlags: 0
@@ -26522,6 +26707,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5717504567828913539}
+  - component: {fileID: 5717504567828913540}
   m_Layer: 0
   m_Name: TruckKenw_K-1000
   m_TagString: Untagged
@@ -26687,6 +26873,42 @@ Transform:
   m_Father: {fileID: 82133492}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &5717504567828913540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5714514272126918761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b15a4cf01f521349982c9a0a7e03fe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 1000
+  xps: 0
+  CashPrice: 0
+  aboutVehicle: 
+  vehicleName: 
+  rotationSpeed: 10
+  engine: 2402
+  accleration: 14.7
+  handling: 41.3
+  brakes: 0
+  EngineUpgradePrice: []
+  AcclerationUpgradePrice: []
+  HandlingUpgradePrice: []
+  BrakesUpgradePrice: []
+  carIndex: 0
+  upgrade_value_power: 0
+  upgrade_value_brake: 0
+  upgrade_value_speed: 0
+  tex: []
+  rend: {fileID: 0}
+  jeep02: 0
+  jeep01: 0
+  CarMat: {fileID: 0}
+  purchaseIndex: 0
 --- !u!4 &5717585449464684159
 Transform:
   m_ObjectHideFlags: 0
@@ -51054,6 +51276,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7875198954959553620}
+  - component: {fileID: 7875198954959553621}
   m_Layer: 0
   m_Name: TruckTrailer
   m_TagString: Vehicle
@@ -51212,6 +51435,42 @@ Transform:
   m_Father: {fileID: 82133492}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &7875198954959553621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7874521706481815574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b15a4cf01f521349982c9a0a7e03fe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 2000
+  xps: 0
+  CashPrice: 0
+  aboutVehicle: 
+  vehicleName: 
+  rotationSpeed: 10
+  engine: 2321
+  accleration: 20.6
+  handling: 34.3
+  brakes: 0
+  EngineUpgradePrice: []
+  AcclerationUpgradePrice: []
+  HandlingUpgradePrice: []
+  BrakesUpgradePrice: []
+  carIndex: 0
+  upgrade_value_power: 0
+  upgrade_value_brake: 0
+  upgrade_value_speed: 0
+  tex: []
+  rend: {fileID: 0}
+  jeep02: 0
+  jeep01: 0
+  CarMat: {fileID: 0}
+  purchaseIndex: 0
 --- !u!4 &7875198955532558720
 Transform:
   m_ObjectHideFlags: 0
