@@ -19,4 +19,5 @@ public class Settings_Handller : MonoBehaviour
     {
         
     }
+    public void Back() { Handllers_Manager.Instance.switchMenu(Screens.Mainmenu); }
 }

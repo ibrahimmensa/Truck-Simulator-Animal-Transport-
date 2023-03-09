@@ -17,11 +17,12 @@ public class Modes_Handller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
+    public void Back() { Handllers_Manager.Instance.switchMenu(Screens.Garage); }
     public void ForestMode()
     {
-
+        Handllers_Manager.Instance.switchMenu(Screens.Forest_Levels);
     }
     public void FarmMode() { }
     public void OffRoadMode() { }

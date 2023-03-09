@@ -17,6 +17,7 @@ public class ForestLevels_Handller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
+    public void Back() { Handllers_Manager.Instance.switchMenu(Screens.Modes); }
 }
