@@ -27,14 +27,13 @@ public class GameManager : Singleton<GameManager>
     //levels
     int level;
     bool levelCom;
-    public Text Leveltxt;
-    public Text dubbleScore;
+    //public Text Leveltxt;
+   // public Text dubbleScore;
     public GameObject LevelsManagr;
     public GameObject LevelPosition;
-    public Button DubbleReward;
 
     //coins
-    public Text Cointxt;
+    //public Text Cointxt;
 
     //sound and music
     public GameObject SoundManager;
@@ -47,7 +46,7 @@ public class GameManager : Singleton<GameManager>
     }
     void Start()
     {
-        //PlayerPrefs.SetInt("Level", 2);
+        PlayerPrefs.SetInt("Level", 1);
         if (PlayerPrefs.HasKey("Truck"))
         {
             Player = PlayerObj.transform.GetChild(PlayerPrefs.GetInt("Truck")).gameObject;
@@ -74,6 +73,7 @@ public class GameManager : Singleton<GameManager>
         {
             LevelsManagr.transform.GetChild(0).gameObject.SetActive(true);
             Player.transform.position = LevelPosition.transform.GetChild(0).transform.position;
+            Player.transform.rotation = LevelPosition.transform.GetChild(0).transform.rotation;
             PlayerPrefs.SetInt("Level", 0);
         }
 
@@ -202,7 +202,7 @@ public class GameManager : Singleton<GameManager>
         P_Levelcomplete.SetActive(true);
         P_BlackScreen.SetActive(false);
         totl = 20 + 5 * (PlayerPrefs.GetInt("Level") + 1);
-        dubbleScore.text = totl.ToString();
+        //dubbleScore.text = totl.ToString();
         if (PlayerPrefs.GetInt("Level") == 0 && PlayerPrefs.GetInt("Coins") == 0)
         {
             PlayerPrefs.SetInt("Coins", totl);
@@ -211,7 +211,7 @@ public class GameManager : Singleton<GameManager>
         {
             PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins") + totl);
         }
-        P_Levelcomplete.transform.Find("Coins").transform.GetChild(0).GetComponent<Text>().text = PlayerPrefs.GetInt("Coins").ToString();
+        //P_Levelcomplete.transform.Find("Coins").transform.GetChild(0).GetComponent<Text>().text = PlayerPrefs.GetInt("Coins").ToString();
         Debug.Log("score is:" + PlayerPrefs.GetInt("Coins"));
         yield return null;
         StopCoroutine(LevelCompleted());

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ForestLevels_Handller : MonoBehaviour
 {
@@ -20,5 +21,8 @@ public class ForestLevels_Handller : MonoBehaviour
 
     }
     public void Back() { Handllers_Manager.Instance.switchMenu(Screens.Modes); }
-    public void MissionBtn () { Debug.Log("Button pressed"); }
+    public void MissionBtn () 
+    { 
+        SceneManager.LoadScene(2);
+    }
 }

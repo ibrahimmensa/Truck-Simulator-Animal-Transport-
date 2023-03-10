@@ -10,7 +10,7 @@ public class LoadingAnimation : MonoBehaviour
     {
         
     }
-
+    public GameObject Loading;
     // Update is called once per frame
     void Update()
     {
@@ -19,5 +19,9 @@ public class LoadingAnimation : MonoBehaviour
     public void LoadMainMenu()
     {
         SceneManager.LoadScene(1);
+    }
+    public void Gamplay()
+    {
+        Loading.SetActive(false);
     }
 }

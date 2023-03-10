@@ -29,13 +29,13 @@ public class TruckInteractions : MonoBehaviour
             if (!IsGamePlay)
                 return;
             IsGamePlay = false;
-            gameObject.GetComponent<BoxCollider>().enabled = false;
+            //gameObject.GetComponent<BoxCollider>().enabled = false;
             if (PlayerPrefs.GetInt("Vibrate") == 1)
             {
                 Handheld.Vibrate();
             }
             //collision.collider.enabled = false;
-            GameManager.Instance.Player.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+           // GameManager.Instance.Player.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
             GameManager.Instance.levelComplete();
         }
     }
