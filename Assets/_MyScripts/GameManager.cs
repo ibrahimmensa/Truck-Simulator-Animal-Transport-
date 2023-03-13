@@ -46,7 +46,7 @@ public class GameManager : Singleton<GameManager>
     }
     void Start()
     {
-        PlayerPrefs.SetInt("Level", 1);
+        //PlayerPrefs.SetInt("Level", 1);
         if (PlayerPrefs.HasKey("Truck"))
         {
             Player = PlayerObj.transform.GetChild(PlayerPrefs.GetInt("Truck")).gameObject;
@@ -226,5 +226,9 @@ public class GameManager : Singleton<GameManager>
         yield return null;
         StopCoroutine(LevelFailed());
     }
+    public void DubbleReward()
+    {
 
+    }
+    public void SkipLevel() { }
 }
